@@ -1,5 +1,11 @@
 table, th,tr,td{
     border: 1px solid black;
+    border-width:thin ;
+    vertical-align: 2px;
+    border-color: rgb(17, 0, 255);
+}
+td, th{
+   padding: 10px;
 }
 div{
     display: flex;
@@ -9,4 +15,7 @@ div{
 h1 {
     text-shadow: 2px 2px 5px red;
     font-size: 600%;
+  }
+  body{
+    background-color: rgba(7, 7, 245, 0.116);
   }
